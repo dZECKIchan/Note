@@ -45,3 +45,20 @@ input[type='text']:focus, textarea:focus{
     height: 0;
     overflow-wrap: break-word;
 }
+@media (min-width: 320px) {
+    body{
+        font-size: 50px;
+    }
+    #add_task{
+        font-size: 40px;
+    }
+}
+@media (max-width: 580px) {
+    body{
+        font-size: 18px;
+    }
+    #add_task{
+        font-size: 16px;
+    }
+}
+
